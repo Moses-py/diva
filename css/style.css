@@ -1,0 +1,68 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#intro{
+    background: url("http://blog-imgs-42.fc2.com/k/o/r/koreabijyo/20a1.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navbar-brand{
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+ 
+}
+
+.card-model{
+  border-radius:24px 24px 0 24px;
+  height:80%;
+  
+}
+
+.btn{
+  border-radius: 24px 24px 24px 0px;
+  background: linear-gradient(40deg, rgb(255, 115, 0), rgb(255, 248, 152));
+}
+
+.top-nav-collapse {
+  background-color: orange;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: orange;
+
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: orange;
+    
+  }
+}
+
+.sexy-divas{
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+}
+
+@media (max-width:768px) {
+  .sexy-divas{
+    font-size:3.5rem;
+    font-weight: bold;
+  }
+}
+
+.deep-orange{
+  background-color:#e65100;
+}
+
+.deep-orange-text{
+  color:#e65100;
+}

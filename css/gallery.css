@@ -1,0 +1,141 @@
+html,
+body,
+header{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+.top-nav-collapse {
+    background-color: purple;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: purple;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: purple;
+    }
+  }
+
+  .navbar-brand{
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+   
+  }
+
+  .btn{
+    border-radius: 24px 24px 24px 0px;
+    background: linear-gradient(40deg, rgba(0,51,199,.7), rgba(209,149,249,.7));
+}
+
+
+  #intro{
+    height:95%;
+    background: url("images/slider-bg-1.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.big-h1{
+    font-family: 'Montserrat', cursive;
+    font-size:4rem;
+    padding-bottom: 3%;
+}
+
+@media (max-width: 768px) {
+    .anime-pic{
+        display: none;
+    }
+
+    .big-h1{
+        font-size:3rem;
+        padding-bottom: 3%;
+    }
+
+    #intro{
+        height:95%;
+    }
+    .first-column{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .first-column{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .anime-pic{
+        display: none;
+    }
+
+    .big-h1{
+        font-size:3.5rem;
+        padding-bottom: 5%;
+    }
+
+    #intro{
+        height:95%;
+    }
+}
+
+html,
+body,
+header,
+.jarallax {
+  height: 700px;
+}
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+h5 {
+    letter-spacing: 3px;
+}
+
+.deep-purple{
+    background-color:#aa00ff;
+}
+
+.deep-purple-text{
+    color:#aa00ff;
+}
+
+.img{
+  height: 200px;
+  width:100%;
+}
+
+@media (max-width:768px) {
+  .img{
+    height: 280px;
+    width:100%;
+    padding: 0 4%;
+  }
+}
+
+

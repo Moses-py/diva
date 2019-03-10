@@ -1,0 +1,67 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#intro{
+    background: url("https://images.pexels.com/photos/48606/pexels-photo-48606.jpeg?cs=srgb&amp;dl=smartphone-desk-laptop-48606.jpg&amp;fm=jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navbar-brand{
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+ 
+}
+.top-nav-collapse {
+  background-color: #4a148c;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #4a148c;
+
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #4a148c;
+    
+  }
+}
+
+.big-h1{
+  color:#4a148c;
+}
+
+@media (max-width:768px) {
+  .sexy-divas{
+    font-size:5rem;
+    font-weight: bold;
+  }
+
+  .h1-text{
+    font-size:3rem;
+  }
+}
+
+.btn{
+  border-radius: 24px 24px 24px 0px;
+  background: linear-gradient(40deg, rgba(0,51,199,.7), rgba(209,149,249,.7));
+}
+
+.bg{
+    background-color: #4a148c;
+}
+
+.deep-blue{
+    background-color: #0d47a1;
+}
+.deep-blue-text{
+    color:#0d47a1;
+}

@@ -1,0 +1,112 @@
+html,
+body,
+header{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+.top-nav-collapse {
+    background-color: purple;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: purple;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: purple;
+    }
+  }
+
+  .navbar-brand{
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+   
+  }
+
+  .btn{
+    border-radius: 24px 24px 24px 0px;
+    background: linear-gradient(40deg, rgba(0,51,199,.7), rgba(209,149,249,.7));
+}
+
+.big-h1{
+    font-family: 'Montserrat', cursive;
+}
+
+@media (max-width: 768px) {
+    .anime-pic{
+        display: none;
+    }
+
+    .big-h1{
+        font-size:3rem;
+    }
+
+    #intro{
+        height:95%;
+    }
+    .first-column{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .first-column{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .anime-pic{
+        display: none;
+    }
+
+    .big-h1{
+        font-size:3rem;
+    }
+
+    #intro{
+        height:95%;
+    }
+}
+
+html,
+body,
+header,
+.jarallax {
+  height: 700px;
+}
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+h5 {
+    letter-spacing: 3px;
+}
+
+.deep-purple{
+    background-color:#aa00ff;
+}
+
+.deep-purple-text{
+    color:#aa00ff;
+}
